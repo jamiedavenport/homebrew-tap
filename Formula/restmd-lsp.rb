@@ -1,25 +1,25 @@
 class RestmdLsp < Formula
   desc "Language server for restmd — completion, diagnostics, and symbols for .restmd files."
   homepage "https://github.com/jamiedavenport/restmd"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.1.0/restmd-lsp-aarch64-apple-darwin.tar.xz"
-      sha256 "08fce15ec5d15fee7ec2c15068cfd3f893d3a22feb55bd61df862c6be6478097"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-lsp-aarch64-apple-darwin.tar.xz"
+      sha256 "b019fbe538c3aff1f48c3f07b99c866f39804d0996aedb6581acc3956c15cf80"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.1.0/restmd-lsp-x86_64-apple-darwin.tar.xz"
-      sha256 "603d8663c48a5cecf9f912abea33fe36ac12c40be0c3d8ac32dbc41d5e0d05b8"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-lsp-x86_64-apple-darwin.tar.xz"
+      sha256 "e6fc320624eeba171f7bd3f1f69262437ffda3fbcf5c7d6d50e9a0d43c1471c4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.1.0/restmd-lsp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "65b2cadc513d2e3d9d4bdbfeaf9ae35d2ec86012c0aa9ecb9d49c3def8def9ef"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-lsp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "87c524339932c1166b90f1dbeab36c1b30f5232159c0c80be381ca7c6626e570"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.1.0/restmd-lsp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7e921210953d06877e039eb2bc6944264f1cc07bd57c5cc13fb8c2d976cc0da4"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-lsp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "75dac83cc0d33e9767b8a1316ebf41f5ccb6899085f23d690782b8ce83f70a2d"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
