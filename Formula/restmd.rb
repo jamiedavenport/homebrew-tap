@@ -1,28 +1,28 @@
 class Restmd < Formula
   desc "A markdown-native REST client (CLI)."
   homepage "https://github.com/jamiedavenport/restmd"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-aarch64-apple-darwin.tar.xz"
-      sha256 "87934391be658989040b1ae849c04f33ced1cc7f1377c45c7bdf97efd8df4a03"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.0/restmd-aarch64-apple-darwin.tar.xz"
+      sha256 "6cb2ad62926e6aaf214e2c896d25f7d6c70757fa387547da8aae3551a8f67afb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-x86_64-apple-darwin.tar.xz"
-      sha256 "bf2524dc794e51187c848943c0eeecf93a6f30db7734ae299191c1e493611d5e"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.0/restmd-x86_64-apple-darwin.tar.xz"
+      sha256 "717015aea891fd166cb656467ae939f853c512c33585e02803fceaba4c580495"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "987c2ea315a6de62ed84b0fe8a09140ae7eb7f9689919d697ce1b046cd3dc88e"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.0/restmd-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4b7e25627bec87f350a6a9f843ce1eb7c535244323d872a11ccac438bcfc9c14"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.2.0/restmd-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9fc4f8551208a422a0056ae9b7e97d3329209230cdeea225dd8ef416f0b9f72b"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.0/restmd-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "af366f951dae96512f801827b6a9fd05ca96e0a92b558f6916c38bfb8e0c0880"
     end
   end
-  license any_of: ["MIT", "Apache-2.0"]
+  license "MIT"
 
   BINARY_ALIASES = {
     "aarch64-apple-darwin":      {},
