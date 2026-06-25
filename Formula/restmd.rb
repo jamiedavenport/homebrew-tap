@@ -1,25 +1,25 @@
 class Restmd < Formula
   desc "A markdown-native REST client (CLI)."
   homepage "https://github.com/jamiedavenport/restmd"
-  version "0.3.1"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.1/restmd-aarch64-apple-darwin.tar.xz"
-      sha256 "96b998abd9d3a1c03c1f4eeb466a969c3041cd9dffbc52dba3cadf7f43ba07c2"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.4.0/restmd-aarch64-apple-darwin.tar.xz"
+      sha256 "c7c77ac67591ed24cab58a77e5a060fc30f26b77036aa46b23b0e44ec458d82d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.1/restmd-x86_64-apple-darwin.tar.xz"
-      sha256 "f72d140307e5345a123e77f74ee891efd230cdc0519478ea2669d1c5f5b9291a"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.4.0/restmd-x86_64-apple-darwin.tar.xz"
+      sha256 "42eb1f4826c32a55ab1a2bb33a0151ab3bf787dc6216e82db251c606136587dd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.1/restmd-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9cd6b88733cc770d6dc19e410e3525e2bafa7a2cecc38436091487a2f1d07069"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.4.0/restmd-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c558fc34997c2c529a33b51cc496f128a5d504eada72a034bd09776e22b1aaad"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jamiedavenport/restmd/releases/download/v0.3.1/restmd-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d719578bc4121f5457ced33eb4f75053e8b8fc9717f00751a12ad82ebba6e35b"
+      url "https://github.com/jamiedavenport/restmd/releases/download/v0.4.0/restmd-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "abbc4e01a6b863b5733b3ba09fe70efef2d3e0b6edb7d219673e07c83f540976"
     end
   end
   license "MIT"
