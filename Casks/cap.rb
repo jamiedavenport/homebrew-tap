@@ -1,6 +1,6 @@
 cask "cap" do
-  version "0.0.2"
-  sha256 "f17c9cadcd9b6b49fe910e471b36e79f8ed281457c4424b486e0fdc8bff1e16a"
+  version "0.0.3"
+  sha256 "16fa07c4dfa3d4d6ca73ce249cb30391631d29aff798ddb27ee195e31d667556"
 
   url "https://github.com/jamiedavenport/cap/releases/download/v#{version}/cap-#{version}.dmg"
   name "cap"
