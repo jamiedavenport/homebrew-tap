@@ -1,6 +1,6 @@
 cask "capd" do
-  version "0.0.1"
-  sha256 "bb543fec52290914cfaf9cef2b47ee59d8f321f071f9359c8889ec75032f4a2b"
+  version "0.0.2"
+  sha256 "21b1012a7a038b2ed40a19a10ace3b0ddb6a098766bf00728c0c36750f2e1a50"
 
   url "https://github.com/jamiedavenport/capd/releases/download/v#{version}/capd-#{version}.dmg"
   name "Capd"
