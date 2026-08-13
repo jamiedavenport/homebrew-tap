@@ -1,6 +1,6 @@
 cask "capd" do
-  version "0.0.7"
-  sha256 "7970f04acbb1f753002df4cc04d3a003a7d1d9a2f1b5e6bfd5410a68354f7ff7"
+  version "0.0.8"
+  sha256 "8f35a6966fe3ef1885ca851eed76c343eba3e19f6f664ec998837ee76ab6b662"
 
   url "https://github.com/jamiedavenport/capd/releases/download/v#{version}/capd-#{version}.dmg"
   name "Capd"
@@ -12,7 +12,7 @@ cask "capd" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "capd.app"
   binary "#{appdir}/capd.app/Contents/MacOS/capd"
